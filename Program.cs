@@ -10,6 +10,7 @@ namespace HabitTracker
             Habit habit = new Habit();
             bool appIsOn = true;
 
+
             while (appIsOn)
             {
 
@@ -23,7 +24,7 @@ namespace HabitTracker
                 {
                     Console.WriteLine("You chose to add a habit");
                     habit.AddHabit();
-                    
+
 
                 }
                 else if (choice == 2)
@@ -31,6 +32,10 @@ namespace HabitTracker
                     habit.ShowHabitsList();
                 }
                 else if (choice == 3)
+                {
+                    habit.RemoveHabit();
+                }
+                else if (choice == 4)
                 {
                     appIsOn = Menu.exitApp();
                 }

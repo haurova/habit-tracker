@@ -7,7 +7,8 @@ class Menu
         Console.WriteLine();
         Console.WriteLine("1. Add Habit");
         Console.WriteLine("2. View Habits");
-        Console.WriteLine("3. Exit");
+        Console.WriteLine("3. Remove Habits");
+        Console.WriteLine("4. Exit");
         Console.WriteLine();
         Console.WriteLine("Choose an option: ");
     }
