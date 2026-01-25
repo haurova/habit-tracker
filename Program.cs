@@ -7,7 +7,7 @@ namespace HabitTracker
     {
         static void Main(string[] args)
         {
-            Habit habit = new Habit();
+            HabitTracker habit = new HabitTracker();
             bool appIsOn = true;
 
 
